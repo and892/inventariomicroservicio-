@@ -42,7 +42,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/inventariomicroservicio
     username: postgres
-    password: 12345
+    password: andres
     hikari:
       poolName: Hikari
       auto-commit: false
