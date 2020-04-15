@@ -12,7 +12,7 @@
 # Full reference is available at:
 # http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
 # ===================================================================
-
+# : 192.168.99.100:32771        localhost:8081
 logging:
   level:
     ROOT: DEBUG
@@ -24,7 +24,7 @@ eureka:
     prefer-ip-address: true
   client:
     service-url:
-      defaultZone: http://admin:${jhipster.registry.password}@/192.168.99.100:32771/eureka/
+      defaultZone: http://admin:${jhipster.registry.password}@/localhost:8081/eureka/
 
 spring:
   profiles:
